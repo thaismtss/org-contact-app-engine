@@ -1,0 +1,9 @@
+runtime: python37
+
+handlers:
+ 
+- url: /api/.*
+  script: auto
+
+- url: /
+  static_dir: static
